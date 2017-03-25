@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1469DC1E8622C700394568 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1469DB1E8622C700394568 /* TipViewController.swift */; };
 		5BB593DE1E6A6E360029F55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB593DD1E6A6E360029F55F /* AppDelegate.swift */; };
 		5BB593E01E6A6E360029F55F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB593DF1E6A6E360029F55F /* ViewController.swift */; };
 		5BB593E31E6A6E360029F55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB593E11E6A6E360029F55F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1469DB1E8622C700394568 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipViewController.swift; path = ../TipViewController.swift; sourceTree = "<group>"; };
 		5BB593DA1E6A6E360029F55F /* 只要我長大.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "只要我長大.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB593DD1E6A6E360029F55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB593DF1E6A6E360029F55F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				5BB593DD1E6A6E360029F55F /* AppDelegate.swift */,
 				5BB593DF1E6A6E360029F55F /* ViewController.swift */,
+				5B1469DB1E8622C700394568 /* TipViewController.swift */,
 				5BB593E11E6A6E360029F55F /* Main.storyboard */,
 				5BB593E41E6A6E360029F55F /* Assets.xcassets */,
 				5BB593E61E6A6E370029F55F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB593E01E6A6E360029F55F /* ViewController.swift in Sources */,
+				5B1469DC1E8622C700394568 /* TipViewController.swift in Sources */,
 				5BB593DE1E6A6E360029F55F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				5BB593EE1E6A6E370029F55F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
